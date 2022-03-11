@@ -63,7 +63,7 @@ let dispatch = useDispatch();
           label="Name"
           name='name'
           type='name'
-          value={name}
+          value={name || ''}
           onChange={handleInputChange}
         />
         <br />
@@ -72,7 +72,7 @@ let dispatch = useDispatch();
           label="Age"
           name='age'
           type='number'
-          value={age}
+          value={age || ''}
           onChange={handleInputChange}
         />
         <br />
@@ -81,7 +81,7 @@ let dispatch = useDispatch();
           label="Course"
           name='course'
           type='course'
-          value={course}
+          value={course || ''}
           onChange={handleInputChange}
         />
         <br />
@@ -90,7 +90,7 @@ let dispatch = useDispatch();
           label="Batch"
           name='batch'
           type='batch'
-          value={batch}
+          value={batch || ''}
           onChange={handleInputChange}
         />
         <br />
