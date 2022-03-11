@@ -23,7 +23,7 @@ let dispatch = useDispatch();
   const { name, age, course, batch } = state;
   useEffect(() => {
     dispatch(getSingleUser(id))
-  },[]);
+  },);
   useEffect(() =>{
     if(user){
       setState({...user});

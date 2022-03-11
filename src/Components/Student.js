@@ -14,7 +14,7 @@ function createData(name, age, course, batch, change) {
   return { name, age, course, batch, change };
 
 }
-const rows = [
+const user = [
   createData("Jhon", 24, "MERN", "October"),
   createData("Doe", 25, "MERN", "November"),
   createData("Biden", 26, "MERN", "September"),
@@ -31,7 +31,7 @@ const Student = () => {
 
   useEffect(() => {
     dispatch(loadUsers());
-  }, [])
+  },)
   return (
     <>
       <button onClick={() => navigate("/New")}>Add Student</button>
