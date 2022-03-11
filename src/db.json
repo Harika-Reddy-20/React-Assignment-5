@@ -1,0 +1,47 @@
+{
+    "user": [
+        {
+            "name": "Jhon",
+            "age" : 24,
+            "batch":"October",
+            "course":"MERN",
+            "id":1
+        },
+        {
+            "name": "Doe",
+            "age" : 25,
+            "batch":"November",
+            "course":"MERN",
+            "id":2
+        },
+        {
+            "name": "Biden",
+            "age" : 26,
+            "batch":"September",
+            "course":"MERN",
+            "id":3
+        },
+        {
+            "name": "Barar",
+            "age" : 22,
+            "batch":"September",
+            "course":"MERN",
+            "id":4
+        },
+        {
+            "name": "Christ",
+            "age" : 23,
+            "batch":"October",
+            "course":"MERN",
+            "id":5
+        },
+        {
+            "name": "Elent",
+            "age" : 24,
+            "batch":"November",
+            "course":"MERN",
+            "id":6
+        }
+
+    ]
+}
