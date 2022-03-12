@@ -10,18 +10,18 @@ import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from "react-redux"
 import { loadUsers } from '../redux/actions';
 
-function createData(name, age, course, batch, change) {
-  return { name, age, course, batch, change };
+// function createData(name, age, course, batch, change) {
+//   return { name, age, course, batch, change };
 
-}
-const user = [
-  createData("Jhon", 24, "MERN", "October"),
-  createData("Doe", 25, "MERN", "November"),
-  createData("Biden", 26, "MERN", "September"),
-  createData("Barar", 22, "MERN", "September"),
-  createData("Christ", 23, "MERN", "October"),
-  createData("Elent", 24, "MERN", "November")
-];
+// }
+// const user = [
+//   createData("Jhon", 24, "MERN", "October"),
+//   createData("Doe", 25, "MERN", "November"),
+//   createData("Biden", 26, "MERN", "September"),
+//   createData("Barar", 22, "MERN", "September"),
+//   createData("Christ", 23, "MERN", "October"),
+//   createData("Elent", 24, "MERN", "November")
+// ];
 
 const Student = () => {
 
